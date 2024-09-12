@@ -9,16 +9,16 @@ pub enum TokenType {
     // ]
     RightBracket,
     // a string
-    Str(String),
+    Str,
 
     // a integer
-    Int(i64),
+    Int,
 
     // a float
-    Float(f64),
+    Float,
 
     // a boolean
-    Bool(bool),
+    Bool,
 
     // the null value
     Null,
